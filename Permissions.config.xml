@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RocketPermissions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DefaultGroup>default</DefaultGroup>
+  <Groups>
+    <Group>
+      <Id>default</Id>
+      <DisplayName>Survivor</DisplayName>
+      <Prefix>[Survivor] </Prefix>
+      <Suffix />
+      <Color>#ffffff</Color>
+      <Members />
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="0">compass</Permission>
+        <Permission Cooldown="2">pay</Permission>
+        <Permission Cooldown="0">p</Permission>
+        <Permission Cooldown="0">reward</Permission>
+        <Permission Cooldown="0">balance</Permission>
+        <Permission Cooldown="12">essentials.command.kit</Permission>
+        <Permission Cooldown="0">essentials.command.kits</Permission>
+        <Permission Cooldown="5">essentials.command.tps</Permission>
+        <Permission Cooldown="2">essentials.command.warps</Permission>
+        <Permission Cooldown="2">essentials.command.warp</Permission>
+        <Permission Cooldown="2">essentials.warp.safezone</Permission>
+        <Permission Cooldown="2">essentials.command.home</Permission>
+        <Permission Cooldown="2">essentials.kit.starter</Permission>
+        <Permission Cooldown="2">essentials.kit.mre</Permission>
+        <Permission Cooldown="5">tpa</Permission>
+        <Permission Cooldown="0">vault.5</Permission>
+        <Permission Cooldown="0">vault</Permission>
+        <Permission Cooldown="0">essentials.textcommand.discord</Permission>
+        <Permission Cooldown="0">essentials.textcommand.bounty</Permission>
+        <Permission Cooldown="0">bounty</Permission>
+        <Permission Cooldown="0">discord</Permission>
+        <Permission Cooldown="0">buy</Permission>
+        <Permission Cooldown="0">sell</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>lettuce</Id>
+      <DisplayName>Developer</DisplayName>
+      <Prefix>[Developer] </Prefix>
+      <Suffix />
+      <Color>#ff4800</Color>
+      <Members>
+        <Member>76561198308781840</Member>
+      </Members>
+      <Priority>7</Priority>
+      <Permissions>
+        <Permission Cooldown="0">admin</Permission>
+        <Permission Cooldown="0">duty</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>tmod</Id>
+      <DisplayName>T-Mod</DisplayName>
+      <Prefix>[Trial-Moderator] </Prefix>
+      <Suffix />
+      <Color>#8ca3a3</Color>
+      <Members />
+      <ParentGroup>default</ParentGroup>
+      <Priority>10</Priority>
+      <Permissions>
+        <Permission Cooldown="0">compass</Permission>
+        <Permission Cooldown="0">rocket</Permission>
+        <Permission Cooldown="0">pay</Permission>
+        <Permission Cooldown="0">p</Permission>
+        <Permission Cooldown="0">reward</Permission>
+        <Permission Cooldown="0">balance</Permission>
+        <Permission Cooldown="0">essentials.command.kit</Permission>
+        <Permission Cooldown="0">essentials.command.kits</Permission>
+        <Permission Cooldown="0">essentials.command.warp</Permission>
+        <Permission Cooldown="0">essentials.command.warps</Permission>
+        <Permission Cooldown="0">essentials.command.kick</Permission>
+        <Permission Cooldown="0">essentials.command.tp</Permission>
+        <Permission Cooldown="2">essentials.command.safezone</Permission>
+        <Permission Cooldown="5">tphere</Permission>
+        <Permission Cooldown="0">essentials.textcommand.discord</Permission>
+        <Permission Cooldown="0">discord</Permission>
+        <Permission Cooldown="0">essentials.textcommand.bounty</Permission>
+        <Permission Cooldown="0">bounty</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>mod</Id>
+      <DisplayName>Mod</DisplayName>
+      <Prefix>[Moderator] </Prefix>
+      <Suffix />
+      <Color>#b0e0e6</Color>
+      <Members />
+      <ParentGroup>tmod</ParentGroup>
+      <Priority>9</Priority>
+      <Permissions />
+    </Group>
+    <Group>
+      <Id>t-admin</Id>
+      <DisplayName>TrialAdmin</DisplayName>
+      <Prefix>[trial-Admin] </Prefix>
+      <Suffix />
+      <Color>#0050f0</Color>
+      <Members />
+      <ParentGroup>mod</ParentGroup>
+      <Priority>8</Priority>
+      <Permissions>
+        <Permission Cooldown="0">essentials.command.jump</Permission>
+        <Permission Cooldown="0">essentials.command.warp.*</Permission>
+        <Permission Cooldown="0">essentials.command.item</Permission>
+        <Permission Cooldown="0">essentials.command.v</Permission>
+        <Permission Cooldown="0">essentials.command.vehicle</Permission>
+        <Permission Cooldown="0">vanish</Permission>
+        <Permission Cooldown="5">day</Permission>
+        <Permission Cooldown="5">night</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>admin</Id>
+      <DisplayName>Admin</DisplayName>
+      <Prefix>[Admin] </Prefix>
+      <Suffix />
+      <Color>#0050f0</Color>
+      <Members />
+      <ParentGroup>t-admin</ParentGroup>
+      <Priority>6</Priority>
+      <Permissions>
+        <Permission Cooldown="0">compass</Permission>
+        <Permission Cooldown="0">admin</Permission>
+        <Permission Cooldown="0">rocket</Permission>
+        <Permission Cooldown="0">essentials.command.warp.*</Permission>
+        <Permission Cooldown="0">essentials.command.item</Permission>
+        <Permission Cooldown="0">rocket.*</Permission>
+        <Permission Cooldown="0">essentials.command.v</Permission>
+        <Permission Cooldown="0">essentials.command.vehicle</Permission>
+        <Permission Cooldown="0">essentials.command.kill</Permission>
+        <Permission Cooldown="0">essentials.command.ban</Permission>
+        <Permission Cooldown="0">essentials.command.kick</Permission>
+        <Permission Cooldown="0">vanish</Permission>
+        <Permission Cooldown="0">essentials.command.tp</Permission>
+        <Permission Cooldown="2">essentials.warp.safezone</Permission>
+        <Permission Cooldown="2">advancedblacklists.*</Permission>
+        <Permission Cooldown="5">day</Permission>
+        <Permission Cooldown="5">night</Permission>
+        <Permission Cooldown="5">tphere</Permission>
+        <Permission Cooldown="0">essentials.command.heal</Permission>
+        <Permission Cooldown="0">essentials.command.sudo</Permission>
+        <Permission Cooldown="0">essentials.command.freeze</Permission>
+        <Permission Cooldown="0">essentials.command.unfreeze</Permission>
+        <Permission Cooldown="0">essentials.textcommand.discord</Permission>
+        <Permission Cooldown="0">discord</Permission>
+        <Permission Cooldown="0">essentials.textcommand.bounty</Permission>
+        <Permission Cooldown="0">bounty</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>headadmin</Id>
+      <DisplayName>Headadmin</DisplayName>
+      <Prefix>[Head-Admin] </Prefix>
+      <Suffix />
+      <Color>#0050f0</Color>
+      <Members />
+      <ParentGroup>admin</ParentGroup>
+      <Priority>5</Priority>
+      <Permissions>
+        <Permission Cooldown="0">essentials.command.jump</Permission>
+        <Permission Cooldown="0">admin</Permission>
+        <Permission Cooldown="0">rocket.*</Permission>
+        <Permission Cooldown="2">advancedblacklists.*</Permission>
+        <Permission Cooldown="0">advancedzones.*</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>owner</Id>
+      <DisplayName>Owner</DisplayName>
+      <Prefix>[Owner] </Prefix>
+      <Suffix />
+      <Color>red</Color>
+      <Members>
+        <Member>76561198848832488</Member>
+      </Members>
+      <ParentGroup>headadmin</ParentGroup>
+      <Priority>1</Priority>
+      <Permissions />
+    </Group>
+    <Group>
+      <Id>hdeveloper</Id>
+      <DisplayName>Head-Developer</DisplayName>
+      <Prefix>[Head-Developer] </Prefix>
+      <Suffix />
+      <Color>#ff4800</Color>
+      <Members />
+      <Priority>4</Priority>
+      <Permissions />
+    </Group>
+    <Group>
+      <Id>Scavenger</Id>
+      <DisplayName>Scavenger</DisplayName>
+      <Prefix>[Scavenger]</Prefix>
+      <Suffix />
+      <Color>eeff00</Color>
+      <Members />
+      <ParentGroup>default</ParentGroup>
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="10800">heal</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Scavenger</Permission>
+        <Permission Cooldown="0">vault.7</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>Wanderer</Id>
+      <DisplayName>Wanderer</DisplayName>
+      <Prefix>[Wanderer]</Prefix>
+      <Suffix />
+      <Color>eeff00</Color>
+      <Members />
+      <ParentGroup>default</ParentGroup>
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="9000">heal</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Scavenger</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Wanderer</Permission>
+        <Permission Cooldown="0">vault.9</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>Bandit</Id>
+      <DisplayName>Bandit</DisplayName>
+      <Prefix>[Bandit]</Prefix>
+      <Suffix />
+      <Color>eeff00</Color>
+      <Members />
+      <ParentGroup>default</ParentGroup>
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="5400">heal</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Scavenger</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Wanderer</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Bandit</Permission>
+        <Permission Cooldown="0">vault.11</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>HighWayMan</Id>
+      <DisplayName>HighWayMan</DisplayName>
+      <Prefix>[HighWayMan]</Prefix>
+      <Suffix />
+      <Color>eeff00</Color>
+      <Members />
+      <ParentGroup>default</ParentGroup>
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="5400">heal</Permission>
+        <Permission Cooldown="5400">essentials.command.repairvehicle</Permission>
+        <Permission Cooldown="86400">airdrop</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Scavenger</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Wanderer</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Bandit</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Highwayman</Permission>
+        <Permission Cooldown="0">vault.13</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>Enforcer</Id>
+      <DisplayName>Enforcer</DisplayName>
+      <Prefix>[Enforcer]</Prefix>
+      <Suffix />
+      <Color>eeff00</Color>
+      <Members />
+      <ParentGroup>default</ParentGroup>
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="3600">heal</Permission>
+        <Permission Cooldown="3600">essentials.command.repairvehicle</Permission>
+        <Permission Cooldown="43200">airdrop</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Scavenger</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Wanderer</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Bandit</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Highwayman</Permission>
+        <Permission Cooldown="10800">essentials.command.kit.Enforcer</Permission>
+        <Permission Cooldown="0">vault.15</Permission>
+      </Permissions>
+    </Group>
+  </Groups>
+</RocketPermissions>
